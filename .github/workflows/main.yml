@@ -1,0 +1,23 @@
+name: project2_test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'project2/**'
+  pull_request:
+    paths:
+      - 'project2/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./project2
+    steps:
+    - uses: actions/checkout@v2.4.2
+    - name: Use Node.js 
+      uses: actions/setup-node@v3.3.0
+    - run: npm install
+    - run: npm run test -- --no-watch --no-progress --browsers=ChromeHeadless
