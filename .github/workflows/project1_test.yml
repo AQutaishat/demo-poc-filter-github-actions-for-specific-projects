@@ -6,10 +6,11 @@ on:
     paths:
       - 'project1/**'
   pull_request:
-    branches: [ main ]
+    paths:
+      - 'project1/**'
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     defaults:
       run:
