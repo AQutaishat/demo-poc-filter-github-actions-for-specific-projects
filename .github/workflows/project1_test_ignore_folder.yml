@@ -1,0 +1,15 @@
+name: project1_test_ignore_folder
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - 'project1/**'
+  pull_request:
+    paths-ignore:
+      - 'project1/**'
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'echo "No build required proj1" '
