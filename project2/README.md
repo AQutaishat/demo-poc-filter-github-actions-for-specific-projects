@@ -1,3 +1,5 @@
+[![project2_test](https://github.com/cr2product/sandbox-digital-test-workflow/actions/workflows/main.yml/badge.svg)](https://github.com/cr2product/sandbox-digital-test-workflow/actions/workflows/main.yml)
+
 # Project2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
