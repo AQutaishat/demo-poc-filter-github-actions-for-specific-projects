@@ -3,7 +3,8 @@ name: project1_test
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    paths:
+      - 'project1/**'
   pull_request:
     branches: [ main ]
 
