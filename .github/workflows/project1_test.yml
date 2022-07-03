@@ -1,7 +1,6 @@
 name: project1_test
 
 on:
-  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
