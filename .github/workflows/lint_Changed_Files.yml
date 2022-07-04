@@ -2,7 +2,8 @@ name: lint_Changed_Files
 
 on:
   workflow_dispatch:  
-
+  push:
+  
 jobs:
   lint-proj1:
     runs-on: ubuntu-latest
