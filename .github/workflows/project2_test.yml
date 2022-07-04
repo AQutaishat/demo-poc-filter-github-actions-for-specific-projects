@@ -10,7 +10,7 @@ on:
       - 'project2/**'
 
 jobs:
-  test-proj2:
+  testproj2:
     runs-on: ubuntu-latest
     defaults:
       run:
