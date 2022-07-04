@@ -10,7 +10,7 @@ on:
       - 'project2/**'
 
 jobs:
-  testproj2:
+  anas:
     runs-on: ubuntu-latest
     defaults:
       run:
