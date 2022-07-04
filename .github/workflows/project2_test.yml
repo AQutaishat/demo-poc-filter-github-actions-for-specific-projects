@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  anas:
+  test-proj1:
     runs-on: ubuntu-latest
     defaults:
       run:
