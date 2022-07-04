@@ -1,12 +1,16 @@
 name: project1_test
 
 on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'project1/**'
   pull_request:
-    branches:
-      - main
+    paths:
+      - 'project1/**'
 
 jobs:
-  test:
+  test-proj1:
     runs-on: ubuntu-latest
     defaults:
       run:
