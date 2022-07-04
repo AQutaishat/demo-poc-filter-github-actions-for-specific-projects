@@ -1,13 +1,9 @@
 name: project1_test
 
 on:
-  workflow_dispatch:
-  push:
-    paths:
-      - 'project1/**'
   pull_request:
-    paths:
-      - 'project1/**'
+    branches:
+      - main
 
 jobs:
   test:
