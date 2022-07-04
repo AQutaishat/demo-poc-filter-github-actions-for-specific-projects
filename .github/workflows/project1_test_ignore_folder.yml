@@ -1,4 +1,4 @@
-name: project1_test_ignore_folder
+name: project1_test
 on:
   workflow_dispatch:
   push:
@@ -9,7 +9,7 @@ on:
       - 'project1/**'
       
 jobs:
-  build:
+  test-proj1:
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "No build required proj1" '
