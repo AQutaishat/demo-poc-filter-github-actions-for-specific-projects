@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint:script": "git diff --name-only --diff-filter=ACMRTUXB main "
+    "lint:script": "eslint -c eslintrc.js $(git diff --name-only --diff-filter=ACMRTUXB origin/master | grep  -E \"(.js$|.ts$|.tsx$)\")"
   },
   "private": true,
   "dependencies": {
