@@ -1,4 +1,4 @@
-[![project1_test](https://github.com/cr2product/sandbox-digital-test-workflow/actions/workflows/project1_test.yml/badge.svg)](https://github.com/cr2product/sandbox-digital-test-workflow/actions/workflows/project1_test.yml)
+[![project1_test](https://github.com/AQutaishat/demo-poc-filter-github-actions-for-specific-projects/actions/workflows/project1_test.yml/badge.svg)](https://github.com/AQutaishat/demo-poc-filter-github-actions-for-specific-projects/actions/workflows/project1_test.yml)
 ## Description
 
 This project is POC for applying **unit testing on two projects** based on the location of changed files and preventing merging based on the unit testing results.
