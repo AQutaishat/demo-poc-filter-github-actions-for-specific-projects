@@ -3,6 +3,8 @@ name: lint_Changed_Files
 on:
   workflow_dispatch:  
   push:
+    paths:
+      - 'project1/**'
   
 jobs:
   lint-proj1:
